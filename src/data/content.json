@@ -1,0 +1,210 @@
+{
+  "site": {
+    "name": "Agriculture Square",
+    "mark": "AS",
+    "year": "2025 / 2026",
+    "contact": {
+      "email": "hello@agriculturesquare.com",
+      "phone": "+1 (555) 203-8841",
+      "address": "14 Greenfield Road, Harvest Valley"
+    },
+    "social": [
+      { "label": "Instagram", "url": "#" },
+      { "label": "LinkedIn", "url": "#" },
+      { "label": "Twitter", "url": "#" }
+    ]
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "label": "Cover",
+      "kicker": "Agriculture Company Profile",
+      "title": "Growing Tomorrow,\nTogether",
+      "subtitle": "A company profile showcasing sustainable farming, data-driven operations, and global impact.",
+      "cta": "Explore Profile",
+      "image": "https://images.unsplash.com/photo-1657036993283-3115dd71c60b?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "contents",
+      "type": "contents",
+      "label": "Contents",
+      "kicker": "Agriculture//",
+      "heading": "Agriculture for the Future",
+      "intro": "This profile walks through what we grow, how we work, and the values that keep every harvest honest.",
+      "image": "https://images.unsplash.com/photo-1545300329-e785e923ed45?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "products",
+      "type": "products",
+      "label": "Our Products",
+      "kicker": "Best//",
+      "heading": "Our Products",
+      "description": "From soil to shelf, our product lines are grown with precision and certified for quality at every stage.",
+      "items": [
+        {
+          "icon": "wheat",
+          "title": "Organic Grains",
+          "description": "Wheat, barley and oats grown under certified organic rotation practices."
+        },
+        {
+          "icon": "sprout",
+          "title": "Fresh Produce",
+          "description": "Vegetables and fruit harvested at peak ripeness for local and export markets."
+        },
+        {
+          "icon": "droplets",
+          "title": "Dairy & Livestock",
+          "description": "Pasture-raised herds supported by rotational grazing and clean water systems."
+        },
+        {
+          "icon": "package",
+          "title": "Processed Goods",
+          "description": "Milled, packed and cold-stored products ready for retail distribution."
+        }
+      ],
+      "gallery": [
+        "https://images.unsplash.com/photo-1758573728869-d25eb4bafb67?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1765480953875-a7338f896e91?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1729845166336-474f378ca81d?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1632776350300-11016768b521?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "data",
+      "type": "dataAnalysis",
+      "label": "Data Analysis",
+      "kicker": "Data//",
+      "heading": "Data Analysis",
+      "description": "Every field is sensor-mapped. We track yield, soil health and water usage season over season to keep decisions evidence-based.",
+      "stats": [
+        { "label": "Crop Yield", "value": 87, "suffix": "%" },
+        { "label": "Water Efficiency", "value": 93, "suffix": "%" },
+        { "label": "Soil Health Index", "value": 78, "suffix": "%" }
+      ],
+      "chart": [
+        { "label": "2021", "value": 58 },
+        { "label": "2022", "value": 67 },
+        { "label": "2023", "value": 74 },
+        { "label": "2024", "value": 82 },
+        { "label": "2025", "value": 91 }
+      ],
+      "image": "https://images.unsplash.com/photo-1751787838727-375a59537d32?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "label": "About Company",
+      "kicker": "Our//",
+      "heading": "About Company",
+      "description": "Agriculture Square began as a single family farm and has grown into a network of certified growers supplying partners across three continents. We still farm the way we started: paying attention.",
+      "badge": "Growing Since 2009",
+      "points": [
+        "Founded in 2009 with 40 hectares under cultivation",
+        "Now operating across 1,200 hectares and 6 regional co-operatives",
+        "ISO 22000 and Global G.A.P. certified end to end"
+      ],
+      "image": "https://images.unsplash.com/photo-1597868165956-03a6827955b1?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "values",
+      "type": "values",
+      "label": "Company Values",
+      "kicker": "Value//",
+      "heading": "Company Values",
+      "items": [
+        {
+          "icon": "leaf",
+          "title": "Sustainability",
+          "description": "Regenerative practices that leave soil healthier than we found it."
+        },
+        {
+          "icon": "shieldCheck",
+          "title": "Integrity",
+          "description": "Transparent sourcing from seed to shipment, audited every season."
+        },
+        {
+          "icon": "users",
+          "title": "Community",
+          "description": "Fair contracts with over 300 partner growers and local cooperatives."
+        },
+        {
+          "icon": "trendingUp",
+          "title": "Innovation",
+          "description": "Precision agriculture and sensor data guide every planting decision."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1600917000152-ff5d44a22c2e?auto=format&fit=crop&w=1000&q=80"
+    },
+    {
+      "id": "case-study",
+      "type": "caseStudy",
+      "label": "Case Study",
+      "kicker": "Case//",
+      "heading": "Case Study",
+      "client": "Greenfield Co-operative",
+      "result": "+42%",
+      "resultLabel": "Yield increase in 18 months",
+      "challenge": "Greenfield's 300-hectare cooperative faced declining soil fertility and inconsistent irrigation scheduling.",
+      "solution": "We introduced soil sensor networks, a rotational cropping plan, and drip irrigation tied to live moisture data.",
+      "outcome": "Within three growing seasons, yield rose 42% and water usage dropped by a third.",
+      "images": [
+        "https://images.unsplash.com/photo-1647678360259-653b4b5a9ea6?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1635756381838-9a6a25bba99b?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "global",
+      "type": "global",
+      "label": "International Outlook",
+      "kicker": "Global//",
+      "heading": "International Outlook",
+      "description": "Our produce and grain reach partner markets across four continents, with cold-chain logistics built for distance.",
+      "regions": [
+        { "name": "North America", "value": 34 },
+        { "name": "Europe", "value": 28 },
+        { "name": "Asia Pacific", "value": 24 },
+        { "name": "Middle East & Africa", "value": 14 }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "services",
+      "label": "Company Services",
+      "kicker": "Our//",
+      "heading": "Company Services",
+      "description": "Beyond growing, we help partners build resilient agricultural operations of their own.",
+      "items": [
+        {
+          "icon": "tractor",
+          "title": "Farm Consulting",
+          "description": "Agronomy guidance from soil testing to harvest planning."
+        },
+        {
+          "icon": "barChart",
+          "title": "Yield Analytics",
+          "description": "Sensor-driven dashboards that forecast and track performance."
+        },
+        {
+          "icon": "truck",
+          "title": "Export Logistics",
+          "description": "Cold-chain shipping and customs handling for global buyers."
+        },
+        {
+          "icon": "graduationCap",
+          "title": "Grower Training",
+          "description": "Hands-on workshops in sustainable and precision farming."
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1594842059196-5b6b8fa73187?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "label": "Contact",
+      "kicker": "Let's Talk//",
+      "heading": "Let's Grow Together",
+      "description": "Partner with us for your next harvest, supply contract, or farm consulting project."
+    }
+  ]
+}
