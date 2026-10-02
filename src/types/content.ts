@@ -13,6 +13,7 @@ export interface SiteInfo {
   name: string;
   mark: string;
   year: string;
+  tagline?: string;
   contact: SiteContact;
   social: SiteSocial[];
 }

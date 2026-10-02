@@ -9,6 +9,7 @@ import TopBar from "@/components/nav/TopBar";
 import SideDots from "@/components/nav/SideDots";
 import ScrollHint from "@/components/nav/ScrollHint";
 import ScrollProgress from "@/components/ui/ScrollProgress";
+import SiteFooter from "@/components/nav/SiteFooter";
 
 const content = rawContent as unknown as ContentData;
 
@@ -79,6 +80,8 @@ export default function SiteSections() {
           </section>
         );
       })}
+
+      <SiteFooter pages={pages} site={site} onNavigate={goTo} />
 
       <SideDots pages={pages} activeIndex={activeIndex} onNavigate={goTo} />
       <ScrollHint visible={!hasScrolled} />
